@@ -1,0 +1,25 @@
+{
+  "name": "ej-cli",
+  "version": "1.0.20",
+  "description": "",
+  "main": "lib/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ej": "./bin/ej"
+  },
+  "keywords": [],
+  "author": "KarthickThangasamy <rajkarthick.t@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "download": "^5.0.2",
+    "figlet": "^1.2.0",
+    "fs": "0.0.1-security",
+    "git-clone": "^0.1.0",
+    "http": "0.0.0",
+    "path": "^0.12.7",
+    "rimraf": "^2.5.4"
+  }
+}
